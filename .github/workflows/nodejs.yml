@@ -22,4 +22,4 @@ jobs:
       - name: Display the node version
         run: |
           node -v
-        shell: node
+        shell: bash
