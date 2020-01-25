@@ -12,6 +12,7 @@ jobs:
       matrix:
         node: [8, 10, 12]
     steps:
+      - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node }}
